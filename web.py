@@ -285,3 +285,4 @@ with tab_contact:
 st.write("")
 st.write("---")
 st.write("© DATAWORLD — Powered by AM Hub")
+st.write("Developed by the wonderful team D-9 :):):):)")
