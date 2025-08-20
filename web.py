@@ -79,7 +79,7 @@ materials = pd.DataFrame([
         "color": "Orange",
         "characteristics": "SLS, brick-like, architectural",
         "certifications": ["ISO 9001", "REACH"],
-        "image": "static/brick.png"
+        "image": "terracotta_brick.jpg"
     },
     {
         "product": "Ultrasint® TPU 64D",
@@ -89,7 +89,7 @@ materials = pd.DataFrame([
         "color": "Gray",
         "characteristics": "TPU flexible",
         "certifications": ["ISO 10993", "RoHS"],
-        "image": "static/tpu.png"
+        "image": "ultrasint.jpg"
     },
     {
         "product": "Quantum Carbon",
@@ -99,7 +99,7 @@ materials = pd.DataFrame([
         "color": "Black",
         "characteristics": "High strength carbon filled",
         "certifications": ["UL 94 V-0"],
-        "image": "static/carbon.png"
+        "image": "quantum_carbon.jpg"
     },
     {
         "product": "White 3D xiate",
@@ -109,7 +109,7 @@ materials = pd.DataFrame([
         "color": "White",
         "characteristics": "General purpose nylon",
         "certifications": ["ISO 9001", "FDA Food Contact"],
-        "image": "static/white.png"
+        "image": "white.jpg"
     },
 ])
 
