@@ -128,6 +128,8 @@ certs = (
 # Header
 # ---------------------------
 col_logo, col_title, col_cta = st.columns([0.25, 1.2, 0.6])
+with col_logo:
+    st.image("logo.png", width=150)  # Add logo image here, adjust width as needed
 with col_title:
     st.markdown(f"### **3D PRINT CONTROL**")
     st.markdown('<span class="pill">Fast, affordable and accurate material compliance database.</span>', unsafe_allow_html=True)
