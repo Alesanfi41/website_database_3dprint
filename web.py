@@ -14,7 +14,7 @@ from datetime import date
 # Page config & basic style
 # ---------------------------
 st.set_page_config(
-    page_title="woober • 3D Print Control",
+    page_title="DATAWORLD • 3D Print Control",
     page_icon="🧩",
     layout="wide"
 )
@@ -68,7 +68,7 @@ footer {{visibility:hidden;}}
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # ---------------------------
-# Fake dataset (replace later with woober)
+# Fake dataset (replace later with DATAWORLD)
 # ---------------------------
 materials = pd.DataFrame([
     {
@@ -134,7 +134,7 @@ with col_title:
 with col_cta:
     st.write("")
     st.write("")
-    st.markdown("**woober** — *Powered by AM Hub*")
+    st.markdown("**DATAWORLD** — *Powered by AM Hub*")
 
 st.write("")
 st.write("")
@@ -239,14 +239,14 @@ with tab_materials:
 # Manufacturers Tab
 # ---------------------------
 with tab_manuf:
-    st.write("Browse manufacturers present in woober.")
+    st.write("Browse manufacturers present in DATAWORLD.")
     st.dataframe(manufacturers, use_container_width=True)
 
 # ---------------------------
 # Certification Tab
 # ---------------------------
 with tab_certs:
-    st.write("Link between products, manufacturers and certifications in woober.")
+    st.write("Link between products, manufacturers and certifications in DATAWORLD.")
     # Search inside certs
     q2 = st.text_input("Search certification…", placeholder="e.g. ISO 9001, UL 94 V-0")
     cert_view = certs.copy()
@@ -259,7 +259,7 @@ with tab_certs:
 # ---------------------------
 with tab_faq:
     st.markdown("### FAQ")
-    st.markdown("**What is woober?**  \nA smart, fast, and affordable database for material compliance in AM, provided by **AM Hub**.")
+    st.markdown("**What is DATAWORLD?**  \nA smart, fast, and affordable database for material compliance in AM, provided by **AM Hub**.")
     st.markdown("**Can I request certificates?**  \nYes. Open a material card and use *Request certification*.")
     st.markdown("**Do you support multiple languages?**  \nYes (EN/FR/DE/IT).")
 
@@ -282,4 +282,4 @@ with tab_contact:
 # ---------------------------
 st.write("")
 st.write("---")
-st.write("© woober — Powered by AM Hub")
+st.write("© DATAWORLD — Powered by AM Hub")
